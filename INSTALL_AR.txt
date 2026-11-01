@@ -1,0 +1,13 @@
+طريقة التثبيت على XAMPP
+
+1) أوقف Apache.
+2) فك ضغط مجلد student_registration_system_redesigned مباشرة داخل:
+   C:\xampp\htdocs\
+3) تأكد أن هذا الملف موجود:
+   C:\xampp\htdocs\student_registration_system_redesigned\index.php
+4) شغّل Apache وMySQL.
+5) افتح:
+   http://localhost/student_registration_system_redesigned/
+6) إذا لم تكن قاعدة البيانات موجودة، استورد database.sql عبر phpMyAdmin.
+
+ملاحظة: مسارات صفحات النظام تُحدد تلقائياً حسب اسم مجلد المشروع ومكانه، ولا تحتاج إلى تعديل يدوي عند تغيير اسم المجلد.
